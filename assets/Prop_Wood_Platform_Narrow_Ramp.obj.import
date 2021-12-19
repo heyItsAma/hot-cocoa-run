@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Wood_Platform_Narrow_Ramp.obj-9b0e8f48b68ece2b50c34f2101ec5d0b.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Wood_Platform_Narrow_Ramp.obj-9b0e8f48b68ece2b50c34f2101ec5d0b.mesh" ]
+
+source_file="res://assets/Prop_Wood_Platform_Narrow_Ramp.obj"
+dest_files=[ "res://.import/Prop_Wood_Platform_Narrow_Ramp.obj-9b0e8f48b68ece2b50c34f2101ec5d0b.mesh", "res://.import/Prop_Wood_Platform_Narrow_Ramp.obj-9b0e8f48b68ece2b50c34f2101ec5d0b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

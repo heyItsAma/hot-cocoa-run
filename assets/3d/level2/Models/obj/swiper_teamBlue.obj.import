@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/swiper_teamBlue.obj-3a4b0b1e6c710ee7dd7b6864d3eff04f.mesh"
+
+[deps]
+
+files=[ "res://.import/swiper_teamBlue.obj-3a4b0b1e6c710ee7dd7b6864d3eff04f.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/swiper_teamBlue.obj"
+dest_files=[ "res://.import/swiper_teamBlue.obj-3a4b0b1e6c710ee7dd7b6864d3eff04f.mesh", "res://.import/swiper_teamBlue.obj-3a4b0b1e6c710ee7dd7b6864d3eff04f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Terrain_Path_Hill_Edge.obj-8ebd4da21b038a477eceb212e5790563.mesh"
+
+[deps]
+
+files=[ "res://.import/Terrain_Path_Hill_Edge.obj-8ebd4da21b038a477eceb212e5790563.mesh" ]
+
+source_file="res://assets/Terrain_Path_Hill_Edge.obj"
+dest_files=[ "res://.import/Terrain_Path_Hill_Edge.obj-8ebd4da21b038a477eceb212e5790563.mesh", "res://.import/Terrain_Path_Hill_Edge.obj-8ebd4da21b038a477eceb212e5790563.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

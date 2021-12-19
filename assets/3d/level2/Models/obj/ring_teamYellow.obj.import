@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ring_teamYellow.obj-a8c56665f46760fd4e5859bde0b91709.mesh"
+
+[deps]
+
+files=[ "res://.import/ring_teamYellow.obj-a8c56665f46760fd4e5859bde0b91709.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/ring_teamYellow.obj"
+dest_files=[ "res://.import/ring_teamYellow.obj-a8c56665f46760fd4e5859bde0b91709.mesh", "res://.import/ring_teamYellow.obj-a8c56665f46760fd4e5859bde0b91709.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

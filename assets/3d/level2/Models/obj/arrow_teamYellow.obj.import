@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/arrow_teamYellow.obj-a328fc2055f5f2c198aae2583ad2c0fd.mesh"
+
+[deps]
+
+files=[ "res://.import/arrow_teamYellow.obj-a328fc2055f5f2c198aae2583ad2c0fd.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/arrow_teamYellow.obj"
+dest_files=[ "res://.import/arrow_teamYellow.obj-a328fc2055f5f2c198aae2583ad2c0fd.mesh", "res://.import/arrow_teamYellow.obj-a328fc2055f5f2c198aae2583ad2c0fd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

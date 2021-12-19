@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Block_Pause.obj-90f4dd6ebb65b92e970f7052b90dc239.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Block_Pause.obj-90f4dd6ebb65b92e970f7052b90dc239.mesh" ]
+
+source_file="res://assets/Prop_Block_Pause.obj"
+dest_files=[ "res://.import/Prop_Block_Pause.obj-90f4dd6ebb65b92e970f7052b90dc239.mesh", "res://.import/Prop_Block_Pause.obj-90f4dd6ebb65b92e970f7052b90dc239.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

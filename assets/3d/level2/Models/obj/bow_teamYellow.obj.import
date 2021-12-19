@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bow_teamYellow.obj-617e5412beaa6da1ed6c4c558f9512df.mesh"
+
+[deps]
+
+files=[ "res://.import/bow_teamYellow.obj-617e5412beaa6da1ed6c4c558f9512df.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/bow_teamYellow.obj"
+dest_files=[ "res://.import/bow_teamYellow.obj-617e5412beaa6da1ed6c4c558f9512df.mesh", "res://.import/bow_teamYellow.obj-617e5412beaa6da1ed6c4c558f9512df.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

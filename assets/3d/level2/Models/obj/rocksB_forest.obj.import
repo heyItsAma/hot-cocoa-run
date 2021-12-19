@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocksB_forest.obj-3ff5fa39f3698760cac99bd0839d4256.mesh"
+
+[deps]
+
+files=[ "res://.import/rocksB_forest.obj-3ff5fa39f3698760cac99bd0839d4256.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/rocksB_forest.obj"
+dest_files=[ "res://.import/rocksB_forest.obj-3ff5fa39f3698760cac99bd0839d4256.mesh", "res://.import/rocksB_forest.obj-3ff5fa39f3698760cac99bd0839d4256.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

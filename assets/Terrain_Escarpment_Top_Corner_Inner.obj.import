@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Terrain_Escarpment_Top_Corner_Inner.obj-9e751f91449763b3c7451159071485ca.mesh"
+
+[deps]
+
+files=[ "res://.import/Terrain_Escarpment_Top_Corner_Inner.obj-9e751f91449763b3c7451159071485ca.mesh" ]
+
+source_file="res://assets/Terrain_Escarpment_Top_Corner_Inner.obj"
+dest_files=[ "res://.import/Terrain_Escarpment_Top_Corner_Inner.obj-9e751f91449763b3c7451159071485ca.mesh", "res://.import/Terrain_Escarpment_Top_Corner_Inner.obj-9e751f91449763b3c7451159071485ca.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,94 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://fonts/Dokdo-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://button-yw-return.gd" type="Script" id=2]
+[ext_resource path="res://SetFinishTime.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 144
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 59
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 72
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 65
+font_data = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1019.0
+margin_bottom = 599.0
+color = Color( 0.756863, 1, 0.972549, 1 )
+
+[node name="Label" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_top = 130.0
+margin_right = 1028.0
+margin_bottom = 330.0
+custom_fonts/font = SubResource( 1 )
+text = "You WIn!"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="button-yw-return" type="Button" parent="."]
+margin_left = 316.0
+margin_top = 306.0
+margin_right = 708.0
+margin_bottom = 377.0
+custom_colors/font_color_disabled = Color( 0.847059, 0.313726, 0.313726, 1 )
+custom_colors/font_color_focus = Color( 0.917647, 0.141176, 0.141176, 1 )
+custom_colors/font_color = Color( 0.87451, 0.301961, 0.301961, 1 )
+custom_colors/font_color_hover = Color( 0.388235, 0.796078, 0.152941, 1 )
+custom_colors/font_color_pressed = Color( 0.890196, 0.482353, 0.482353, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Play Again"
+flat = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Finish" type="Label" parent="."]
+visible = false
+margin_left = 147.0
+margin_top = 398.0
+margin_right = 535.0
+margin_bottom = 473.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "Finish Time: "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Time" type="Label" parent="."]
+visible = false
+margin_left = 521.0
+margin_top = 403.0
+margin_right = 789.0
+margin_bottom = 469.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+text = "00:00:00"
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="G" type="Node" parent="."]
+
+[connection signal="pressed" from="button-yw-return" to="button-yw-return" method="_on_buttonywreturn_pressed"]

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/powerupBlock_teamBlue.obj-2fb1adbe64c6288c4f54c9396905fe88.mesh"
+
+[deps]
+
+files=[ "res://.import/powerupBlock_teamBlue.obj-2fb1adbe64c6288c4f54c9396905fe88.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/powerupBlock_teamBlue.obj"
+dest_files=[ "res://.import/powerupBlock_teamBlue.obj-2fb1adbe64c6288c4f54c9396905fe88.mesh", "res://.import/powerupBlock_teamBlue.obj-2fb1adbe64c6288c4f54c9396905fe88.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

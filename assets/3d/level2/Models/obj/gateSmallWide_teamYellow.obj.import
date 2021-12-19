@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gateSmallWide_teamYellow.obj-c31973e2a62bc3224c78054a3e4adeec.mesh"
+
+[deps]
+
+files=[ "res://.import/gateSmallWide_teamYellow.obj-c31973e2a62bc3224c78054a3e4adeec.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/gateSmallWide_teamYellow.obj"
+dest_files=[ "res://.import/gateSmallWide_teamYellow.obj-c31973e2a62bc3224c78054a3e4adeec.mesh", "res://.import/gateSmallWide_teamYellow.obj-c31973e2a62bc3224c78054a3e4adeec.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/barrierLarge.obj-5157381f35ec3840cf0db0744796c7ee.mesh"
+
+[deps]
+
+files=[ "res://.import/barrierLarge.obj-5157381f35ec3840cf0db0744796c7ee.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/barrierLarge.obj"
+dest_files=[ "res://.import/barrierLarge.obj-5157381f35ec3840cf0db0744796c7ee.mesh", "res://.import/barrierLarge.obj-5157381f35ec3840cf0db0744796c7ee.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

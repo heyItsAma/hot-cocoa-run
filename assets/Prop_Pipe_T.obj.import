@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Pipe_T.obj-a882c98670dc6cc435d67aeea1b344cc.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Pipe_T.obj-a882c98670dc6cc435d67aeea1b344cc.mesh" ]
+
+source_file="res://assets/Prop_Pipe_T.obj"
+dest_files=[ "res://.import/Prop_Pipe_T.obj-a882c98670dc6cc435d67aeea1b344cc.mesh", "res://.import/Prop_Pipe_T.obj-a882c98670dc6cc435d67aeea1b344cc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

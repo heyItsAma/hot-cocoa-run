@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Slide_Top.obj-3143462fe9b687f04fcef0e1052f632c.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Slide_Top.obj-3143462fe9b687f04fcef0e1052f632c.mesh" ]
+
+source_file="res://assets/Prop_Slide_Top.obj"
+dest_files=[ "res://.import/Prop_Slide_Top.obj-3143462fe9b687f04fcef0e1052f632c.mesh", "res://.import/Prop_Slide_Top.obj-3143462fe9b687f04fcef0e1052f632c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

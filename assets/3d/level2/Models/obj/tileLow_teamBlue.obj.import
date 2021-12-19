@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tileLow_teamBlue.obj-8cd3d12b8445fa53cde6e7a73593b4ed.mesh"
+
+[deps]
+
+files=[ "res://.import/tileLow_teamBlue.obj-8cd3d12b8445fa53cde6e7a73593b4ed.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/tileLow_teamBlue.obj"
+dest_files=[ "res://.import/tileLow_teamBlue.obj-8cd3d12b8445fa53cde6e7a73593b4ed.mesh", "res://.import/tileLow_teamBlue.obj-8cd3d12b8445fa53cde6e7a73593b4ed.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

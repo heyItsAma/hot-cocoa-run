@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tileMedium_desert.obj-be6f60c40da637404810f375bdb4b8eb.mesh"
+
+[deps]
+
+files=[ "res://.import/tileMedium_desert.obj-be6f60c40da637404810f375bdb4b8eb.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/tileMedium_desert.obj"
+dest_files=[ "res://.import/tileMedium_desert.obj-be6f60c40da637404810f375bdb4b8eb.mesh", "res://.import/tileMedium_desert.obj-be6f60c40da637404810f375bdb4b8eb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

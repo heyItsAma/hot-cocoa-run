@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ball_teamYellow.obj-22335f17c05c4b2d4d86385c8e53dd35.mesh"
+
+[deps]
+
+files=[ "res://.import/ball_teamYellow.obj-22335f17c05c4b2d4d86385c8e53dd35.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/ball_teamYellow.obj"
+dest_files=[ "res://.import/ball_teamYellow.obj-22335f17c05c4b2d4d86385c8e53dd35.mesh", "res://.import/ball_teamYellow.obj-22335f17c05c4b2d4d86385c8e53dd35.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

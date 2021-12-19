@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/lightning.obj-e6d199482f3b2c474904918300a92801.mesh"
+
+[deps]
+
+files=[ "res://.import/lightning.obj-e6d199482f3b2c474904918300a92801.mesh" ]
+
+source_file="res://assets/3d/level2/Models/obj/lightning.obj"
+dest_files=[ "res://.import/lightning.obj-e6d199482f3b2c474904918300a92801.mesh", "res://.import/lightning.obj-e6d199482f3b2c474904918300a92801.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

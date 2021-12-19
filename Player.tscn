@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/Player.gd" type="Script" id=1]
+
+[sub_resource type="CylinderMesh" id=6]
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 1, 0.933333, 0.933333, 1 )
+
+[sub_resource type="CubeMesh" id=2]
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.807843, 0.607843, 0, 1 )
+
+[sub_resource type="CapsuleShape" id=5]
+
+[node name="Player" type="KinematicBody"]
+script = ExtResource( 1 )
+
+[node name="Pivot" type="Position3D" parent="."]
+
+[node name="Skin" type="MeshInstance" parent="Pivot"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.50177, 0 )
+mesh = SubResource( 6 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Pivot"]
+transform = Transform( -4.37114e-08, 0, -0.2, 0, 0.2, 0, 1, 0, -8.74228e-09, 0, 2, -0.54023 )
+mesh = SubResource( 2 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 4 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 1.51919, 0 )
+shape = SubResource( 5 )
+
+[node name="SpringArm" type="SpringArm" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.985178, 0.171534, 0, -0.171534, 0.985178, 0, 2.97971, 2.90333 )
+spring_length = 6.0
+
+[node name="Camera" type="Camera" parent="SpringArm"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.902389, 7.00132 )
+far = 1385.1
